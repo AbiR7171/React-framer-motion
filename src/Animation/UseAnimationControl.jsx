@@ -20,13 +20,13 @@ const UseAnimationControl = () => {
         <div className='flex flex-col space-y-3 justify-center items-center mt-10'> 
 
                 <button  onClick={handelForward} className='bg-yellow-300 px-10 py-3 rounded'>Position</button>
-              <motion.div className='bg-green-800 size-44 rounded' animate={controls} custom={1}>
+              <motion.div onMouseEnter={()=> controls.stop()}  className='bg-green-800 size-44 rounded' animate={controls} custom={1}>
                     
               </motion.div>
-              <motion.div className='bg-green-800 size-44 rounded' animate={controls} custom={2}>
+              <motion.div onMouseEnter={()=> controls.stop()}  className='bg-green-800 size-44 rounded' animate={controls} custom={2}>
                     
               </motion.div>
-              <motion.div className='bg-green-800 size-44 rounded' animate={controls} custom={3}>
+              <motion.div onMouseEnter={()=> controls.stop()}  className='bg-green-800 size-44 rounded' animate={controls} custom={3}>
                     
               </motion.div>
         </div>
