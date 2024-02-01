@@ -1,4 +1,4 @@
-import GestureAnimation from "./Animation/GestureAnimation.jsx"
+import UseAnimationControl from "./Animation/UseAnimationControl.jsx"
 
 
 import './App.css'
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <GestureAnimation />
+      <UseAnimationControl/>
     </>
   )
 }
