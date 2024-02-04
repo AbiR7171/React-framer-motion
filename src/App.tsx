@@ -1,5 +1,6 @@
 
 import UseDragControls from "./Animation/UseDragControls.js"
+import UseMotionValueWithTransform from "./Animation/UseMotionValueWithTransform.js"
 import './App.css'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-         <UseDragControls/>
+         <UseMotionValueWithTransform/>
     </>
   )
 }
