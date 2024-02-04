@@ -1,4 +1,4 @@
-import UseInView from "./Animation/UseInView.js"
+import UseAnimate from "./Animation/UseAnimate.js"
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UseInView/>
+      <UseAnimate/>
     </>
   )
 }
