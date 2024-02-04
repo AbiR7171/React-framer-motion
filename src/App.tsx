@@ -1,6 +1,4 @@
-import UseCycle from "./Animation/UseCycle.jsx"
-
-
+import UseInView from "./Animation/UseInView.js"
 import './App.css'
 
 function App() {
@@ -9,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UseCycle/>
+      <UseInView/>
     </>
   )
 }
